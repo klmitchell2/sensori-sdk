@@ -7,9 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D39876E01A19926F0027D771 /* SensoriSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = D39876DF1A19926F0027D771 /* SensoriSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D359D7D71A1AAE4D0099A2E9 /* SIError.h in Headers */ = {isa = PBXBuildFile; fileRef = D359D7D51A1AAE4D0099A2E9 /* SIError.h */; };
+		D359D7D81A1AAE4D0099A2E9 /* SIError.m in Sources */ = {isa = PBXBuildFile; fileRef = D359D7D61A1AAE4D0099A2E9 /* SIError.m */; };
+		D359D7DD1A1AB26F0099A2E9 /* SIData.h in Headers */ = {isa = PBXBuildFile; fileRef = D359D7DB1A1AB26F0099A2E9 /* SIData.h */; };
+		D359D7DE1A1AB26F0099A2E9 /* SIData.m in Sources */ = {isa = PBXBuildFile; fileRef = D359D7DC1A1AB26F0099A2E9 /* SIData.m */; };
+		D39876E01A19926F0027D771 /* SISDK.h in Headers */ = {isa = PBXBuildFile; fileRef = D39876DF1A19926F0027D771 /* SISDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D39876E61A19926F0027D771 /* SensoriSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D39876DA1A19926F0027D771 /* SensoriSDK.framework */; };
 		D39876ED1A19926F0027D771 /* SensoriSDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D39876EC1A19926F0027D771 /* SensoriSDKTests.m */; };
+		D398772B1A1A963D0027D771 /* SISensor.h in Headers */ = {isa = PBXBuildFile; fileRef = D39877291A1A963D0027D771 /* SISensor.h */; };
+		D398772C1A1A963D0027D771 /* SISensor.m in Sources */ = {isa = PBXBuildFile; fileRef = D398772A1A1A963D0027D771 /* SISensor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +29,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D359D7D51A1AAE4D0099A2E9 /* SIError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SIError.h; sourceTree = "<group>"; };
+		D359D7D61A1AAE4D0099A2E9 /* SIError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SIError.m; sourceTree = "<group>"; };
+		D359D7DA1A1AAF540099A2E9 /* SISensorDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SISensorDelegate.h; sourceTree = "<group>"; };
+		D359D7DB1A1AB26F0099A2E9 /* SIData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SIData.h; sourceTree = "<group>"; };
+		D359D7DC1A1AB26F0099A2E9 /* SIData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SIData.m; sourceTree = "<group>"; };
 		D39876DA1A19926F0027D771 /* SensoriSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SensoriSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D39876DE1A19926F0027D771 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D39876DF1A19926F0027D771 /* SensoriSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SensoriSDK.h; sourceTree = "<group>"; };
+		D39876DF1A19926F0027D771 /* SISDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SISDK.h; sourceTree = "<group>"; };
 		D39876E51A19926F0027D771 /* SensoriSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SensoriSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D39876EB1A19926F0027D771 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D39876EC1A19926F0027D771 /* SensoriSDKTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SensoriSDKTests.m; sourceTree = "<group>"; };
+		D39877291A1A963D0027D771 /* SISensor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SISensor.h; sourceTree = "<group>"; };
+		D398772A1A1A963D0027D771 /* SISensor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SISensor.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +84,8 @@
 		D39876DC1A19926F0027D771 /* SensoriSDK */ = {
 			isa = PBXGroup;
 			children = (
-				D39876DF1A19926F0027D771 /* SensoriSDK.h */,
+				D39876DF1A19926F0027D771 /* SISDK.h */,
+				D39877281A1A96050027D771 /* Models */,
 				D39876DD1A19926F0027D771 /* Supporting Files */,
 			);
 			path = SensoriSDK;
@@ -102,6 +116,20 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		D39877281A1A96050027D771 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D39877291A1A963D0027D771 /* SISensor.h */,
+				D398772A1A1A963D0027D771 /* SISensor.m */,
+				D359D7D51A1AAE4D0099A2E9 /* SIError.h */,
+				D359D7D61A1AAE4D0099A2E9 /* SIError.m */,
+				D359D7DA1A1AAF540099A2E9 /* SISensorDelegate.h */,
+				D359D7DB1A1AB26F0099A2E9 /* SIData.h */,
+				D359D7DC1A1AB26F0099A2E9 /* SIData.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -109,7 +137,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D39876E01A19926F0027D771 /* SensoriSDK.h in Headers */,
+				D359D7DD1A1AB26F0099A2E9 /* SIData.h in Headers */,
+				D39876E01A19926F0027D771 /* SISDK.h in Headers */,
+				D359D7D71A1AAE4D0099A2E9 /* SIError.h in Headers */,
+				D398772B1A1A963D0027D771 /* SISensor.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +240,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D359D7DE1A1AB26F0099A2E9 /* SIData.m in Sources */,
+				D359D7D81A1AAE4D0099A2E9 /* SIError.m in Sources */,
+				D398772C1A1A963D0027D771 /* SISensor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,6 +352,7 @@
 		D39876F11A19926F0027D771 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -333,6 +368,7 @@
 		D39876F21A19926F0027D771 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -394,6 +430,7 @@
 				D39876F21A19926F0027D771 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D39876F31A19926F0027D771 /* Build configuration list for PBXNativeTarget "SensoriSDKTests" */ = {
 			isa = XCConfigurationList;
@@ -402,6 +439,7 @@
 				D39876F51A19926F0027D771 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
