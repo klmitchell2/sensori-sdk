@@ -10,8 +10,8 @@
 #import "SIError.h"
 #import "SISensorDelegate.h"
 
-typedef enum SensorStatus {CONNECTED, NOT_CONNECTED, MEASURING} SISensorStatus;
-typedef enum SensorCollectionProfile {CONTINUOUS, PER_SECOND, PER_MINUTE, ON_EVENT} SISensorCollectionProfile;
+typedef NS_ENUM(NSInteger, SISensorStatus){CONNECTED, NOT_CONNECTED, MEASURING};
+typedef NS_ENUM(NSInteger, SISensorCollectionProfile){CONTINUOUS, PER_SECOND, PER_MINUTE, ON_EVENT};
 
 @interface SISensor : NSObject
 
@@ -21,7 +21,7 @@ typedef enum SensorCollectionProfile {CONTINUOUS, PER_SECOND, PER_MINUTE, ON_EVE
 @property (nonatomic, strong) NSString *sensorName; //a user-defined name for the sensor.
 @property (nonatomic) int batteryLife; //int (ideally 0-100), representing the strength of the battery.
 @property (nonatomic) int connectionStrength; //int (ideally 0-100), representing the strength of the connection to the sensor.
-@property (strong, nonatomic) id<SISensorDelegate> delegate;
+@property (strong, nonatomic) id<SISensorDelegate> delegate; //this is the delegate object that will receive notifications from the sensor
 
 - (BOOL) isConnected; //Returns whether or not the sensor is connected to the device.
 - (BOOL) isMeasuring; //Returns whether or not the sensor is currently measuring.
@@ -31,5 +31,6 @@ typedef enum SensorCollectionProfile {CONTINUOUS, PER_SECOND, PER_MINUTE, ON_EVE
 - (void) startMeasuring; //Device begins measuring data.
 - (void) stopMeasuring; //Device stops measuring data.
 - (void) setName:(NSString *)name; //Sets a name for the device.
+- (void) calibrateWithCallback:(void(^)(SIError *error))callback; //The developer uses this to calibrate the device. This should be used when the velocity of the device is known to be close to zero.
 
 @end

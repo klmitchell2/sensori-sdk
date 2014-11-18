@@ -8,6 +8,11 @@
 
 #import <Foundation/Foundation.h>
 
+typedef NS_ENUM(NSInteger, SIErrorType){BATTERY_TOO_LOW, NO_SENSORS_FOUND, OUT_OF_RANGE};
+
+
 @interface SIError : NSError
+
+@property (nonatomic) SIErrorType error;
 
 @end

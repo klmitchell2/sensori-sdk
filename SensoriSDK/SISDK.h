@@ -7,6 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <SensoriSDK/SISensor.h>
+#import <SensoriSDK/SIError.h>
+#import <SensoriSDK/SISensorDelegate.h>
+#import <SensoriSDK/SIData.h>
+#import <SensoriSDK/SISensorManager.h>
 
 //! Project version number for SensoriSDK.
 FOUNDATION_EXPORT double SensoriSDKVersionNumber;
@@ -15,5 +20,6 @@ FOUNDATION_EXPORT double SensoriSDKVersionNumber;
 FOUNDATION_EXPORT const unsigned char SensoriSDKVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <SensoriSDK/PublicHeader.h>
-
++ (void) initWithDeveloperID:(NSString *)developerID ProjectID:(NSString *)projectID;
++ (SISensorManager *) getManager;
 
