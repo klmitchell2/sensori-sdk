@@ -12,12 +12,9 @@
 
 @protocol SISensorDelegate <NSObject>
 
-@required
 - (void) beganMeasuringWithSensor:(SISensor *)sensor;
 - (void) stoppedMeasuringWithSensor:(SISensor *)sensor;
 - (void) sensor:(SISensor *)sensor didCollectData:(SIData *)data;
-@optional
 - (void) sensor:(SISensor *)sensor didDetectEvent:(SIEvent *)event;
-
 
 @end

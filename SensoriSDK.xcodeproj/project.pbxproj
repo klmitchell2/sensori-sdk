@@ -15,6 +15,8 @@
 		D359D7E21A1BBB420099A2E9 /* SISensorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D359D7E01A1BBB420099A2E9 /* SISensorManager.m */; };
 		D359D7E61A1BC5430099A2E9 /* SIEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = D359D7E41A1BC5430099A2E9 /* SIEvent.h */; };
 		D359D7E71A1BC5430099A2E9 /* SIEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = D359D7E51A1BC5430099A2E9 /* SIEvent.m */; };
+		D37B5B1A1A1FD61E00BDBA1C /* SIDeviceSelector.h in Headers */ = {isa = PBXBuildFile; fileRef = D37B5B181A1FD61E00BDBA1C /* SIDeviceSelector.h */; };
+		D37B5B1B1A1FD61E00BDBA1C /* SIDeviceSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = D37B5B191A1FD61E00BDBA1C /* SIDeviceSelector.m */; };
 		D39876E01A19926F0027D771 /* SISDK.h in Headers */ = {isa = PBXBuildFile; fileRef = D39876DF1A19926F0027D771 /* SISDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D39876E61A19926F0027D771 /* SensoriSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D39876DA1A19926F0027D771 /* SensoriSDK.framework */; };
 		D39876ED1A19926F0027D771 /* SensoriSDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D39876EC1A19926F0027D771 /* SensoriSDKTests.m */; };
@@ -42,6 +44,9 @@
 		D359D7E01A1BBB420099A2E9 /* SISensorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SISensorManager.m; sourceTree = "<group>"; };
 		D359D7E41A1BC5430099A2E9 /* SIEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SIEvent.h; sourceTree = "<group>"; };
 		D359D7E51A1BC5430099A2E9 /* SIEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SIEvent.m; sourceTree = "<group>"; };
+		D37B5B181A1FD61E00BDBA1C /* SIDeviceSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SIDeviceSelector.h; sourceTree = "<group>"; };
+		D37B5B191A1FD61E00BDBA1C /* SIDeviceSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SIDeviceSelector.m; sourceTree = "<group>"; };
+		D37B5B1C1A1FD6AB00BDBA1C /* SIDeviceSelectorDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SIDeviceSelectorDelegate.h; sourceTree = "<group>"; };
 		D39876DA1A19926F0027D771 /* SensoriSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SensoriSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D39876DE1A19926F0027D771 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D39876DF1A19926F0027D771 /* SISDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SISDK.h; sourceTree = "<group>"; };
@@ -138,6 +143,9 @@
 				D359D7E01A1BBB420099A2E9 /* SISensorManager.m */,
 				D359D7E41A1BC5430099A2E9 /* SIEvent.h */,
 				D359D7E51A1BC5430099A2E9 /* SIEvent.m */,
+				D37B5B181A1FD61E00BDBA1C /* SIDeviceSelector.h */,
+				D37B5B191A1FD61E00BDBA1C /* SIDeviceSelector.m */,
+				D37B5B1C1A1FD6AB00BDBA1C /* SIDeviceSelectorDelegate.h */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -149,6 +157,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D37B5B1A1A1FD61E00BDBA1C /* SIDeviceSelector.h in Headers */,
 				D359D7DD1A1AB26F0099A2E9 /* SIData.h in Headers */,
 				D359D7E11A1BBB420099A2E9 /* SISensorManager.h in Headers */,
 				D39876E01A19926F0027D771 /* SISDK.h in Headers */,
@@ -254,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D37B5B1B1A1FD61E00BDBA1C /* SIDeviceSelector.m in Sources */,
 				D359D7DE1A1AB26F0099A2E9 /* SIData.m in Sources */,
 				D359D7E21A1BBB420099A2E9 /* SISensorManager.m in Sources */,
 				D359D7D81A1AAE4D0099A2E9 /* SIError.m in Sources */,
