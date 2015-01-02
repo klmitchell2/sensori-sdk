@@ -6,11 +6,13 @@
 //  Copyright (c) 2014 Sensori, LLC. All rights reserved.
 //
 
-#import "SISensor.h"
-#import "SIData.h"
-#import "SIEvent.h"
+
+@class SIData;
+@class SISensor;
+@class SIEvent;
 
 @protocol SISensorDelegate <NSObject>
+
 
 - (void) beganMeasuringWithSensor:(SISensor *)sensor;
 - (void) stoppedMeasuringWithSensor:(SISensor *)sensor;

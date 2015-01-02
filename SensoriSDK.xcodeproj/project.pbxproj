@@ -7,6 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		241F8AE91A5731C000546335 /* deviceSelector.h in Headers */ = {isa = PBXBuildFile; fileRef = 241F8AE71A5731C000546335 /* deviceSelector.h */; };
+		241F8AEA1A5731C000546335 /* deviceSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = 241F8AE81A5731C000546335 /* deviceSelector.m */; };
+		241F8AEC1A5732E500546335 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 241F8AEB1A5732E500546335 /* MessageUI.framework */; };
+		241F8AEE1A5732FA00546335 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 241F8AED1A5732FA00546335 /* StoreKit.framework */; };
+		241F8AF01A57330600546335 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 241F8AEF1A57330600546335 /* SystemConfiguration.framework */; };
+		241F8AF21A57331500546335 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 241F8AF11A57331500546335 /* Security.framework */; };
+		241F8AF41A57332600546335 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 241F8AF31A57332600546335 /* QuartzCore.framework */; };
+		241F8AF61A57333000546335 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 241F8AF51A57333000546335 /* MobileCoreServices.framework */; };
+		241F8AF81A57333D00546335 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 241F8AF71A57333D00546335 /* CoreLocation.framework */; };
+		241F8AFA1A57335100546335 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 241F8AF91A57335100546335 /* CoreGraphics.framework */; };
+		241F8AFC1A57336000546335 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 241F8AFB1A57336000546335 /* CFNetwork.framework */; };
+		241F8AFE1A57337000546335 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 241F8AFD1A57337000546335 /* AudioToolbox.framework */; };
+		241F8B001A57337B00546335 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 241F8AFF1A57337B00546335 /* Accelerate.framework */; };
+		241F8B021A57338700546335 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 241F8B011A57338700546335 /* CoreBluetooth.framework */; };
+		241F8B041A57339F00546335 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 241F8B031A57339F00546335 /* UIKit.framework */; };
+		241F8B061A5733AB00546335 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 241F8B051A5733AB00546335 /* Foundation.framework */; };
+		241F8B0A1A5737AA00546335 /* SensorObj.h in Headers */ = {isa = PBXBuildFile; fileRef = 241F8B081A5737AA00546335 /* SensorObj.h */; };
+		241F8B0B1A5737AA00546335 /* SensorObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 241F8B091A5737AA00546335 /* SensorObj.m */; };
+		241F8B131A57414800546335 /* BLEDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 241F8B0D1A57414800546335 /* BLEDevice.h */; };
+		241F8B141A57414800546335 /* BLEDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 241F8B0E1A57414800546335 /* BLEDevice.m */; };
+		241F8B151A57414800546335 /* BLEUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 241F8B0F1A57414800546335 /* BLEUtility.h */; };
+		241F8B161A57414800546335 /* BLEUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 241F8B101A57414800546335 /* BLEUtility.m */; };
+		241F8B171A57414800546335 /* TISensors.h in Headers */ = {isa = PBXBuildFile; fileRef = 241F8B111A57414800546335 /* TISensors.h */; };
+		241F8B181A57414800546335 /* TISensors.m in Sources */ = {isa = PBXBuildFile; fileRef = 241F8B121A57414800546335 /* TISensors.m */; };
 		D359D7D71A1AAE4D0099A2E9 /* SIError.h in Headers */ = {isa = PBXBuildFile; fileRef = D359D7D51A1AAE4D0099A2E9 /* SIError.h */; };
 		D359D7D81A1AAE4D0099A2E9 /* SIError.m in Sources */ = {isa = PBXBuildFile; fileRef = D359D7D61A1AAE4D0099A2E9 /* SIError.m */; };
 		D359D7DD1A1AB26F0099A2E9 /* SIData.h in Headers */ = {isa = PBXBuildFile; fileRef = D359D7DB1A1AB26F0099A2E9 /* SIData.h */; };
@@ -35,6 +59,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		241F8AE71A5731C000546335 /* deviceSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = deviceSelector.h; path = ../deviceSelector.h; sourceTree = "<group>"; };
+		241F8AE81A5731C000546335 /* deviceSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = deviceSelector.m; path = ../deviceSelector.m; sourceTree = "<group>"; };
+		241F8AEB1A5732E500546335 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		241F8AED1A5732FA00546335 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		241F8AEF1A57330600546335 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		241F8AF11A57331500546335 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		241F8AF31A57332600546335 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		241F8AF51A57333000546335 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		241F8AF71A57333D00546335 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		241F8AF91A57335100546335 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		241F8AFB1A57336000546335 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		241F8AFD1A57337000546335 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		241F8AFF1A57337B00546335 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		241F8B011A57338700546335 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		241F8B031A57339F00546335 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		241F8B051A5733AB00546335 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		241F8B081A5737AA00546335 /* SensorObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SensorObj.h; sourceTree = "<group>"; };
+		241F8B091A5737AA00546335 /* SensorObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SensorObj.m; sourceTree = "<group>"; };
+		241F8B0D1A57414800546335 /* BLEDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEDevice.h; sourceTree = "<group>"; };
+		241F8B0E1A57414800546335 /* BLEDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEDevice.m; sourceTree = "<group>"; };
+		241F8B0F1A57414800546335 /* BLEUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEUtility.h; sourceTree = "<group>"; };
+		241F8B101A57414800546335 /* BLEUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEUtility.m; sourceTree = "<group>"; };
+		241F8B111A57414800546335 /* TISensors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TISensors.h; sourceTree = "<group>"; };
+		241F8B121A57414800546335 /* TISensors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TISensors.m; sourceTree = "<group>"; };
+		241F8B191A5741A800546335 /* globalconf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = globalconf.h; path = ../globalconf.h; sourceTree = "<group>"; };
 		D359D7D51A1AAE4D0099A2E9 /* SIError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SIError.h; sourceTree = "<group>"; };
 		D359D7D61A1AAE4D0099A2E9 /* SIError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SIError.m; sourceTree = "<group>"; };
 		D359D7DA1A1AAF540099A2E9 /* SISensorDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SISensorDelegate.h; sourceTree = "<group>"; };
@@ -62,6 +111,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				241F8B061A5733AB00546335 /* Foundation.framework in Frameworks */,
+				241F8B041A57339F00546335 /* UIKit.framework in Frameworks */,
+				241F8B021A57338700546335 /* CoreBluetooth.framework in Frameworks */,
+				241F8B001A57337B00546335 /* Accelerate.framework in Frameworks */,
+				241F8AFE1A57337000546335 /* AudioToolbox.framework in Frameworks */,
+				241F8AFC1A57336000546335 /* CFNetwork.framework in Frameworks */,
+				241F8AFA1A57335100546335 /* CoreGraphics.framework in Frameworks */,
+				241F8AF81A57333D00546335 /* CoreLocation.framework in Frameworks */,
+				241F8AF61A57333000546335 /* MobileCoreServices.framework in Frameworks */,
+				241F8AF41A57332600546335 /* QuartzCore.framework in Frameworks */,
+				241F8AF21A57331500546335 /* Security.framework in Frameworks */,
+				241F8AF01A57330600546335 /* SystemConfiguration.framework in Frameworks */,
+				241F8AEE1A5732FA00546335 /* StoreKit.framework in Frameworks */,
+				241F8AEC1A5732E500546335 /* MessageUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,12 +139,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		241F8B071A57345100546335 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				241F8B011A57338700546335 /* CoreBluetooth.framework */,
+				241F8AFF1A57337B00546335 /* Accelerate.framework */,
+				241F8AFD1A57337000546335 /* AudioToolbox.framework */,
+				241F8AFB1A57336000546335 /* CFNetwork.framework */,
+				241F8AF91A57335100546335 /* CoreGraphics.framework */,
+				241F8AF71A57333D00546335 /* CoreLocation.framework */,
+				241F8AF51A57333000546335 /* MobileCoreServices.framework */,
+				241F8AF31A57332600546335 /* QuartzCore.framework */,
+				241F8AF11A57331500546335 /* Security.framework */,
+				241F8AEF1A57330600546335 /* SystemConfiguration.framework */,
+				241F8AED1A5732FA00546335 /* StoreKit.framework */,
+				241F8AEB1A5732E500546335 /* MessageUI.framework */,
+				241F8B031A57339F00546335 /* UIKit.framework */,
+				241F8B051A5733AB00546335 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		241F8B0C1A57414800546335 /* bluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				241F8B0D1A57414800546335 /* BLEDevice.h */,
+				241F8B0E1A57414800546335 /* BLEDevice.m */,
+				241F8B0F1A57414800546335 /* BLEUtility.h */,
+				241F8B101A57414800546335 /* BLEUtility.m */,
+				241F8B111A57414800546335 /* TISensors.h */,
+				241F8B121A57414800546335 /* TISensors.m */,
+			);
+			name = bluetooth;
+			path = "bluetooth copy";
+			sourceTree = "<group>";
+		};
 		D39876D01A19926F0027D771 = {
 			isa = PBXGroup;
 			children = (
 				D39876DC1A19926F0027D771 /* SensoriSDK */,
 				D39876E91A19926F0027D771 /* SensoriSDKTests */,
 				D39876DB1A19926F0027D771 /* Products */,
+				241F8B071A57345100546335 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,7 +196,9 @@
 		D39876DC1A19926F0027D771 /* SensoriSDK */ = {
 			isa = PBXGroup;
 			children = (
+				241F8B191A5741A800546335 /* globalconf.h */,
 				D39876DF1A19926F0027D771 /* SISDK.h */,
+				241F8B0C1A57414800546335 /* bluetooth */,
 				D39877281A1A96050027D771 /* Models */,
 				D39876DD1A19926F0027D771 /* Supporting Files */,
 			);
@@ -132,6 +233,10 @@
 		D39877281A1A96050027D771 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				241F8AE71A5731C000546335 /* deviceSelector.h */,
+				241F8AE81A5731C000546335 /* deviceSelector.m */,
+				241F8B081A5737AA00546335 /* SensorObj.h */,
+				241F8B091A5737AA00546335 /* SensorObj.m */,
 				D39877291A1A963D0027D771 /* SISensor.h */,
 				D398772A1A1A963D0027D771 /* SISensor.m */,
 				D359D7D51A1AAE4D0099A2E9 /* SIError.h */,
@@ -157,13 +262,18 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				241F8B151A57414800546335 /* BLEUtility.h in Headers */,
+				241F8B0A1A5737AA00546335 /* SensorObj.h in Headers */,
 				D37B5B1A1A1FD61E00BDBA1C /* SIDeviceSelector.h in Headers */,
+				241F8B171A57414800546335 /* TISensors.h in Headers */,
 				D359D7DD1A1AB26F0099A2E9 /* SIData.h in Headers */,
 				D359D7E11A1BBB420099A2E9 /* SISensorManager.h in Headers */,
 				D39876E01A19926F0027D771 /* SISDK.h in Headers */,
 				D359D7E61A1BC5430099A2E9 /* SIEvent.h in Headers */,
+				241F8B131A57414800546335 /* BLEDevice.h in Headers */,
 				D359D7D71A1AAE4D0099A2E9 /* SIError.h in Headers */,
 				D398772B1A1A963D0027D771 /* SISensor.h in Headers */,
+				241F8AE91A5731C000546335 /* deviceSelector.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,10 +373,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				241F8B161A57414800546335 /* BLEUtility.m in Sources */,
+				241F8B141A57414800546335 /* BLEDevice.m in Sources */,
+				241F8B181A57414800546335 /* TISensors.m in Sources */,
 				D37B5B1B1A1FD61E00BDBA1C /* SIDeviceSelector.m in Sources */,
 				D359D7DE1A1AB26F0099A2E9 /* SIData.m in Sources */,
 				D359D7E21A1BBB420099A2E9 /* SISensorManager.m in Sources */,
+				241F8B0B1A5737AA00546335 /* SensorObj.m in Sources */,
 				D359D7D81A1AAE4D0099A2E9 /* SIError.m in Sources */,
+				241F8AEA1A5731C000546335 /* deviceSelector.m in Sources */,
 				D359D7E71A1BC5430099A2E9 /* SIEvent.m in Sources */,
 				D398772C1A1A963D0027D771 /* SISensor.m in Sources */,
 			);
